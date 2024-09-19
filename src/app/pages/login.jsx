@@ -19,7 +19,7 @@ const Login = () => {
     try {
       const response = await userService.loginUser(email, password);
       console.log('Login successful:', response);
-      navigate('/home');
+      navigate('home');
     } catch (err) {
       setError(err.message || 'An unexpected error occurred');
     } finally {
