@@ -5,6 +5,7 @@ import MainLayout from './app/layout/MainLayout'; // Adjust path to your layout 
 import './App.css';
 import PosHome from './app/pages/posHome';
 import ProductDetails from './app/components/card/ProductDetails';
+import { app, analytics } from '../src/firebase';
 
 
 function App() {
