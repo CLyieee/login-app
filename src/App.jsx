@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Routes>
         {/* Public routes without MainLayout */}
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<PosHome />} />
         <Route path="register" element={<Register />} />
         <Route path="/product-details" element={<ProductDetails />} />
 
